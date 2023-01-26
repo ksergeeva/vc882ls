@@ -16,6 +16,7 @@ public class Purchase {
     public Purchase(int size) {
         purchases = new Purs2[size];
     }
+    ////исправлено магическое число 4 для удобстства определения с помощью products.size в классе Main
 
     public void addPurchase(String title, int count) {
         for (int i = 0; i < purchases.length; i++) {
